@@ -9,9 +9,10 @@ window.addEventListener('scroll', () => {
     let value = window.scrollY;
 
     text.style.marginTop = value * 2.5 + 'px';
-    pic1.style.marginTop = value * 2.5 + 'px';
-    pic2.style.marginTop = value * 2.5 + 'px';
-    pic3.style.marginTop = value * 2.5 + 'px';
-    pic4.style.marginTop = value * 2.5 + 'px';
+    pic1.style.top = value * 2.5 + 'px';
+    pic2.style.left = value * 2.5 + 'px';
+    pic3.style.left = value * -22.5 + 'px';
+    pic3.style.top = value * -12.5 + 'px';
+    pic4.style.marginLeft = value * 22.5 + 'px';
     pic5.style.marginTop = value * 2.5 + 'px';
 });

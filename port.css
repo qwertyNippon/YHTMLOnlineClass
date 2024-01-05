@@ -1,24 +1,26 @@
-*{
-    margin: 0px;
-    padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     background: #f9f9f9;
     min-height: 100vh;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
-.nav{
+.header{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 100;
 }
@@ -27,6 +29,7 @@ body{
     font-size: 2rem;
     color: #359381;
     pointer-events: none;
+    margin-right: 270px;
 }
 
 .navigation a{
@@ -63,19 +66,26 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 50%;
+    width: 100%;
     pointer-events: none;
 }
 
 .sec{
     position: relative;
-    padding: 25px;
+    background: #003329;
+    padding: 100px;
 }
 
 .sec h2{
     font-size: 3rem;
+    color: #fff;
     margin-bottom: 10px;
+}
+
+.sec p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
 }
 
 /* form.form-example {

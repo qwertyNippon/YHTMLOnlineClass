@@ -18,7 +18,7 @@
 
 let text = document.getElementById('text');
 let leaf = document.getElementById('leaf');
-let hill1 = document.getElementById('hill1');
+let pic1 = document.getElementById('pic1');
 let pic4 = document.getElementById('pic4');
 let hill5 = document.getElementById('hill5');
 
@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
     leaf.style.left = value * 1.5 + 'px';
     hill5.style.left = value * 1.5 + 'px';
     pic4.style.left = value * -1.5 + 'px';
-    hill1.style.top = value * 1 + 'px';
+    pic1.style.top = value * 1 + 'px';
 });
 
 

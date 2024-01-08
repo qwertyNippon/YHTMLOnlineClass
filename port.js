@@ -1,20 +1,4 @@
-// let text = document.getElementById('text');
-// let pic1 = document.getElementById('pic1');
-// let pic2 = document.getElementById('pic2');
-// let pic3 = document.getElementById('pic3');
-// let pic4 = document.getElementById('pic4');
-// let pic5 = document.getElementById('pic5');
-
-// window.addEventListener('scroll', () => {
-//     let value = window.scrollY;
-
-//     text.style.marginTop = value * 2.5 + 'px';
-//     pic1.style.top = value * -1.5 + 'px';
-//     pic2.style.left = value * 1.5 + 'px';
-//     pic3.style.left = value * 1.5 + 'px';
-//     pic4.style.left = value * -1.5 + 'px';
-//     pic5.style.top = value * 1 + 'px';
-// });
+// parallax effect controls
 
 let text = document.getElementById('text');
 let leaf = document.getElementById('leaf');
@@ -33,5 +17,22 @@ window.addEventListener('scroll', () => {
     pic1.style.top = value * 1 + 'px';
 });
 
+// Hambuger menu controls
 
-// i need to test the code with the example i was given
+const hamburger = document.querySelector('.hamburger');
+const navList = document.querySelector('nav ul');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navList.classList.toggle('active');
+});
+
+// Highlighter effect, remmeber you need to download a link
+
+// const typed = new Typed('.multiple', {
+//     strings: ['Wife', 'Mother', 'Japanese Teacher', 'Youtuber', 'Life-long Student'],
+//     typespeed:100,
+//     backSpeed:100,
+//     backDelay:2000,
+//     loop: true
+// });

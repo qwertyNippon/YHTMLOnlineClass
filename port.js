@@ -5,6 +5,7 @@ let leaf = document.getElementById('leaf');
 let pic1 = document.getElementById('pic1');
 let pic4 = document.getElementById('pic4');
 let hill5 = document.getElementById('hill5');
+// let hill1 = document.getElementById('hill1');
 
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
@@ -13,6 +14,8 @@ window.addEventListener('scroll', () => {
     leaf.style.top = value * -1.5 + 'px';
     leaf.style.left = value * 1.5 + 'px';
     hill5.style.left = value * 1.5 + 'px';
+    pic1.style.top = value * 2.5 + 'px';
+    // pic1.style.left = value * -.5 + 'px';
     pic4.style.left = value * -1.5 + 'px';
     pic1.style.top = value * 1 + 'px';
 });

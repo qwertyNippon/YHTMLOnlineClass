@@ -35,7 +35,7 @@ header{
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-    z-index: 100;
+    z-index: 10;
 }
 
 nav {
@@ -228,10 +228,12 @@ nav .hamburger.active .bar {
 /* ***************Contact Form ******************* */
 
 .contact-container{
-    height: 70vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background: var(--white);
+    position: relative;
 }
 
 .contact-left{
@@ -260,7 +262,7 @@ nav .hamburger.active .bar {
 .contact-inputs{
     width: 400px;
     height: 50px;
-    border: none;
+    border-color: var(--black);
     outline: none;
     padding-left: 25px;
     font-weight: 500;
@@ -317,6 +319,11 @@ nav .hamburger.active .bar {
 
 .contact-right img{
     max-width: 200px;
+}
+
+.contact-right {
+    position: relative;
+    background: var(--white);
 }
 
 @media (max-width:800px) {

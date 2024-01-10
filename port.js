@@ -52,3 +52,20 @@ window.addEventListener('scroll', function() {
       image.classList.remove('hidden');
     }
   });
+
+//   **************Same hidding for nav ************
+
+  var navbar = document.getElementById('nav');
+  var triggerElement = document.getElementById('contact');
+
+  var observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        navbar.classList.add('hidden');
+      } else {
+        navbar.classList.remove('hidden');
+      }
+    });
+  }, { threshold: 0.5 }); // Adjust the threshold as needed (0.5 means 50% of the target element must be visible)
+
+  observer.observe(triggerElement);

@@ -336,6 +336,17 @@ nav .hamburger.active .bar {
     }
 }
 
+/* ************Pictures*************** */
+
+#pic1{
+    margin-bottom: 70px;
+}
+
+#pic4{
+    margin-top: 75px;
+    width: 70%;
+}
+
 /* form.form-example {
     display: table-row;
 }

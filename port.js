@@ -39,3 +39,16 @@ hamburger.addEventListener('click', () => {
 //     backDelay:2000,
 //     loop: true
 // });
+
+// ************Hidding pics************
+
+window.addEventListener('scroll', function() {
+    var image = document.getElementById('pic1');
+    var threshold = 300; // Adjust this value based on your requirements
+
+    if (window.scrollY > threshold) {
+      image.classList.add('hidden');
+    } else {
+      image.classList.remove('hidden');
+    }
+  });

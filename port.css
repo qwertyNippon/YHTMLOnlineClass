@@ -340,10 +340,17 @@ nav .hamburger.active .bar {
 
 #pic1{
     height: 65%;
+    /* transition: opacity 0.5s ease-in-out; */
 }
 
+.hidden {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
 #pic4{
-    margin-top: 75px;
+    margin-top: 89px;
     width: 70%;
 }
 

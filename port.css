@@ -350,6 +350,13 @@ nav .hamburger.active .bar {
     overflow: hidden;
   }
 
+.relative{
+    position: relative;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 #pic4{
     margin-top: 89px;
     width: 70%;

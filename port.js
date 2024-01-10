@@ -40,18 +40,18 @@ hamburger.addEventListener('click', () => {
 //     loop: true
 // });
 
-// ************Hidding pics************
+// ************Hidding pics************  NOT NEEDED BUT GOOD FOR A REFERENCE
 
-window.addEventListener('scroll', function() {
-    var image = document.getElementById('pic1');
-    var threshold = 300; // Adjust this value based on your requirements
+// window.addEventListener('scroll', function() {
+//     var image = document.getElementById('pic1');
+//     var threshold = 300; // Adjust this value based on your requirements
 
-    if (window.scrollY > threshold) {
-      image.classList.add('hidden');
-    } else {
-      image.classList.remove('hidden');
-    }
-  });
+//     if (window.scrollY > threshold) {
+//       image.classList.add('hidden');
+//     } else {
+//       image.classList.remove('hidden');
+//     }
+//   });
 
 //   **************Same hidding for nav ************
 
@@ -66,8 +66,23 @@ var observer = new IntersectionObserver(function (entries, observer) {
             navbar[index].classList.remove('hidden');
         }
     });
-}, { threshold: 0.5 }); // Adjust the threshold as needed (0.5 means 50% of the target element must be visible)
+}, { threshold: 0.2 }); // Adjust the threshold as needed (0.5 means 50% of the target element must be visible)
 
 triggerElements.forEach(function (element) {
     observer.observe(element);
 });
+
+// ******************** Used to end the infinate scrolling from parallax
+window.addEventListener('scroll', function() {
+    var image = document.getElementById('pic1');
+    var image1 = document.getElementById('text');
+    var threshold = 300; // Adjust this value based on your requirements
+
+    if (window.scrollY > threshold) {
+      image.classList.add('relative');
+      image1.classList.add('relative');
+    } else {
+      image.classList.remove('relative');
+      image1.classList.remove('relative');
+    }
+  });

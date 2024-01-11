@@ -76,7 +76,7 @@ triggerElements.forEach(function (element) {
 window.addEventListener('scroll', function() {
     var image = document.getElementById('pic1');
     var image1 = document.getElementById('text');
-    var threshold = 300; // Adjust this value based on your requirements
+    var threshold = 500; // Adjust this value based on your requirements
 
     if (window.scrollY > threshold) {
       image.classList.add('relative');

@@ -105,6 +105,9 @@ header{
     font-weight: 800;
   }
   
+  a {
+    text-decoration: none;
+  }
   /* .card:hover {
     transform: scale(1.05); */
      /* Scale the card on hover for a subtle effect */

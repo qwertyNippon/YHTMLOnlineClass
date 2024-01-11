@@ -40,6 +40,76 @@ header{
     transition: opacity 0.5s ease-in-out;
 }
 
+.makeCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.contact button{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--white);
+    background: var(--text-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    gap: 10px;
+    padding: 5px 30px;
+    transition: all 0.3s ease; 
+}
+
+.contact button:hover{
+    transform: scale(1.1);
+}
+
+.contact button a{
+    text-decoration: none;
+}
+
+/* *******************************test */
+
+.FAQ{
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.card-container {
+    display: flex;
+    /* flex-direction: column;  */
+    /* Arrange children in a column */
+    align-items: stretch; 
+    /* Stretch items to full container width */
+    justify-content: center; /* Center items vertically */
+    max-height: 40vh;
+    margin: 20px 0px;
+ }
+
+ .card {
+    flex: 1; /* Each card takes equal height */
+    background-color: #f0f0f0;
+    max-width: 50%;
+    object-fit: contain;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  footer div span{
+    color: var(--text-color);
+    font-weight: 800;
+  }
+  
+  /* .card:hover {
+    transform: scale(1.05); */
+     /* Scale the card on hover for a subtle effect */
+  /* } */
+
 nav {
     display: flex;
     align-items: center;
@@ -366,12 +436,6 @@ nav .hamburger.active .bar {
     display: table-row;
 }
 
-/* .makeCenter{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100vw;
-} */
 /* .firstMes {
     display: flex;
     flex-direction: column;

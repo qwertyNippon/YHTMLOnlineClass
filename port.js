@@ -66,7 +66,7 @@ var observer = new IntersectionObserver(function (entries, observer) {
             navbar[index].classList.remove('hidden');
         }
     });
-}, { threshold: 0.2 }); // Adjust the threshold as needed (0.5 means 50% of the target element must be visible)
+}, { threshold: 0.1 }); // Adjust the threshold as needed (0.5 means 50% of the target element must be visible)
 
 triggerElements.forEach(function (element) {
     observer.observe(element);

@@ -90,7 +90,7 @@ header{
 }
 
 .cardMain:hover{
-    transform: scale(1.005);
+    transform: scale(1.01);
 }
 
 .prevent-hover{

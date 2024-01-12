@@ -69,25 +69,43 @@ header{
     text-decoration: none;
 }
 
-.fitImg{
-    /* min-width: 300px; */
-}
-
 .cardMainContainer{
     display: flex;
     flex-direction: column;
-    margin: 20px 0px;
+    align-items: center;
+    height: 100%;
+    margin: 40px 0px;
+    /* box-shadow: 30px 50px var(--black); */
 }
 
 .cardMain{
-    flex: 1;
-    max-width: 50%;
-    object-fit: contain;
-    padding: 20px;
-    margin: 10px;
+    background-color: #f0f0f0;
+    padding: 50px;
+    margin: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 3px 3px var(--bg-color);
+    transition: transform 0.2s ease-in-out;
 }
+
+.cardMain:hover{
+    transform: scale(1.005);
+}
+
+.prevent-hover{
+    pointer-events: none;
+}
+
+.cardMain img {
+    max-width: 50vh;
+    margin-bottom: 10px;
+  }
+
+.sold-out{
+    opacity: .3;
+}
+
 
 /* *******************************test */
 

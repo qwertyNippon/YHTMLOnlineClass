@@ -75,11 +75,13 @@ header{
     align-items: center;
     height: 100%;
     margin: 40px 0px;
+    position: relative;
     /* box-shadow: 30px 50px var(--black); */
 }
 
 .cardMain{
     background-color: #f0f0f0;
+    position: relative;
     padding: 50px;
     margin: 50px;
     border-radius: 8px;
@@ -87,6 +89,18 @@ header{
     text-align: center;
     box-shadow: 3px 3px var(--bg-color);
     transition: transform 0.2s ease-in-out;
+}
+
+.cardMain img{
+    width: 100%;
+}
+
+.zPic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
 }
 
 .cardMain:hover{

@@ -69,6 +69,26 @@ header{
     text-decoration: none;
 }
 
+.fitImg{
+    /* min-width: 300px; */
+}
+
+.cardMainContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.cardMain{
+    flex: 1;
+    max-width: 50%;
+    object-fit: contain;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* *******************************test */
 
 .FAQ{

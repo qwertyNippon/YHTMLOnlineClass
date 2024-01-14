@@ -40,6 +40,15 @@ header{
     transition: opacity 0.5s ease-in-out;
 }
 
+section span {
+    color: var(--text-color);
+    font-weight: 800;
+}
+
+section p {
+    text-align: center;
+}
+
 .makeCenter{
     display: flex;
     flex-direction: column;
@@ -155,6 +164,10 @@ header{
   footer div span{
     color: var(--text-color);
     font-weight: 800;
+  }
+
+  footer div {
+    text-align: center;
   }
   
   a {

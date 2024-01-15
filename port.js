@@ -86,9 +86,11 @@ window.addEventListener('scroll', function() {
   });
 
   function clearInput() {
-    var inputElement = document.getElementById('name');
-    var inputElement = document.getElementById('email');
-    var inputElement = document.getElementById('textArea');
+    var inputElement1 = document.getElementById('name');
+    var inputElement2 = document.getElementById('email');
+    var inputElement3 = document.getElementById('textArea');
     
-    inputElement.value = '';
+    inputElement1.value = '';
+    inputElement2.value = '';
+    inputElement3.value = '';
 }

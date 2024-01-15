@@ -167,7 +167,7 @@ section h2{
 .card {
     background-color: #f0f0f0;
     max-width: 50%;
-    min-height: auto;
+    min-height: 100px;
     /* object-fit: contain; */
     padding: 20px;
     margin: 10px;

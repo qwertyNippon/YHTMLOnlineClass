@@ -285,25 +285,64 @@ nav .hamburger.active .bar {
     text-shadow: 2px 2px 4px rgba(0,0,0, .2);
 }
 
+@media (max-width: 1500px) {
+    #text{
+        font-size: 5rem;
+        top: 400px;
+    }
+}
+@media (max-width: 1200px) {
+    #text{
+        font-size: 3.5rem;
+        top: 350px;
+    }
+}
+@media (max-width: 1000px) {
+    #text{
+        font-size: 3rem;
+        top: 300px;
+    }
+}
 @media (max-width: 800px) {
     #text{
         font-size: 2rem;
         top: 170px;
     }
 }
+@media (max-width: 800px) {
+    #text{
+        font-size: 2.5rem;
+        top: 250px;
+    }
+}
 
+
+@media (max-width: 1500px) {
+    #pic1{
+        width: 180%;
+        left: -15px;
+        margin-bottom: 800px;
+        position: relative;
+    }
+}
+@media (max-width: 1200px) {
+    #pic1{
+        width: 180%;
+        left: -15px;
+        margin-bottom: 550px;
+        position: relative;
+    }
+}
 @media (max-width: 800px) {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 750px;
+        margin-bottom: 520px;
         position: relative;
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* height: 100vh; */
     }
 }
+
+
 
 .parallax img{
     position: absolute;
@@ -331,11 +370,53 @@ nav .hamburger.active .bar {
     font-weight: 300;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1500px) {
     .sec {
-        margin-top: -478px;
+        margin-top: -50px;
     }
 }
+@media (max-width: 1400px) {
+    .sec {
+        margin-top: -80px;
+    }
+}
+@media (max-width: 1300px) {
+    .sec {
+        margin-top: -120px;
+    }
+}
+@media (max-width: 1200px) {
+    .sec {
+        margin-top: -250px;
+    }
+}
+@media (max-width: 1000px) {
+    .sec {
+        margin-top: -300px;
+    }
+}
+@media (max-width: 900px) {
+    .sec {
+        margin-top: -350px;
+    }
+}
+@media (max-width: 800px) {
+    .sec {
+        margin-top: -400px;
+    }
+}
+@media (max-width: 700px) {
+    .sec {
+        margin-top: -460px;
+    }
+}
+@media (max-width: 600px) {
+    .sec {
+        margin-top: -510px;
+    }
+}
+
+
 
 @media screen and (max-width: 992px) {
     header {

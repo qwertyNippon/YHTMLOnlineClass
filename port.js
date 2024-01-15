@@ -85,11 +85,13 @@ window.addEventListener('scroll', function() {
     }
   });
 
-  function clearInput() {
+  async function clearInput() {
     var inputElement1 = document.getElementById('name');
     var inputElement2 = document.getElementById('email');
     var inputElement3 = document.getElementById('textArea');
     
+    await new Promise(resolve => setTimeout(resolve, 5000));
+
     inputElement1.value = '';
     inputElement2.value = '';
     inputElement3.value = '';

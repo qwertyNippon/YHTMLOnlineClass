@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 :root {
@@ -47,6 +48,14 @@ section span {
 
 section p {
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .hTwo{
+        color: #00fbff;
+        display: flex;
+        white-space: nowrap;
+    }
 }
 
 .makeCenter{
@@ -153,7 +162,7 @@ section p {
     margin: 20px 0px;
  }
 
- .card {
+.card {
     background-color: #f0f0f0;
     max-width: 50%;
     min-height: auto;
@@ -163,20 +172,20 @@ section p {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
-  }
+}
 
-  footer div span{
+footer div span {
     color: var(--text-color);
     font-weight: 800;
-  }
+}
 
-  footer div {
+footer div {
     text-align: center;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
-  }
+}
 
 nav {
     display: flex;
@@ -243,9 +252,6 @@ nav .hamburger.active .bar {
 .container {
     display: inline-flex;
     flex-direction: row;
-    /* max-width: 1250px;
-    width: 100%;
-    margin: 0 auto; */
 }
 
 .logo{
@@ -253,6 +259,7 @@ nav .hamburger.active .bar {
     color: var(--text-color);
     pointer-events: none;
     margin-right: 270px;
+    white-space: nowrap;
 }
 
 .navigation a{
@@ -412,7 +419,7 @@ nav .hamburger.active .bar {
     font-weight: 300;
 }
 
-/* @media (max-width: 1500px) {
+@media (max-width: 1500px) {
     .sec {
         margin-top: -50px;
     }
@@ -436,7 +443,7 @@ nav .hamburger.active .bar {
     .sec {
         margin-top: -300px;
     }
-}*/
+}
 
 @media screen and (max-width: 992px) {
     header {

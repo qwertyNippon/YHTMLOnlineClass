@@ -404,6 +404,14 @@ nav .hamburger.active .bar {
     pointer-events: none;
 }
 
+@media (max-width: 991px){
+    .parallax{
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
 .sec{
     position: relative;
     background: var(--bg-color);
@@ -422,7 +430,7 @@ nav .hamburger.active .bar {
     font-weight: 300;
 }
 
-@media (max-width: 1500px) {
+/* @media (max-width: 1500px) {
     .sec {
         margin-top: -50px;
     }
@@ -466,7 +474,7 @@ nav .hamburger.active .bar {
     .sec {
         margin-top: -520px;
     }
-}
+} */
 
 
 

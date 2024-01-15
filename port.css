@@ -41,6 +41,10 @@ header{
     transition: opacity 0.5s ease-in-out;
 }
 
+.picTop {
+    margin-top: 250px;
+}
+
 section span {
     color: var(--text-color);
     font-weight: 800;
@@ -50,12 +54,10 @@ section p {
     text-align: center;
 }
 
-@media (max-width: 1000px) {
-    .hTwo{
-        color: #00fbff;
-        display: flex;
-        white-space: nowrap;
-    }
+section h2{
+    color: #00fbff;
+    display: flex;
+    white-space: nowrap;
 }
 
 .makeCenter{

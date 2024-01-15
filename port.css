@@ -183,6 +183,7 @@ section h2{
 }
 
 .space {
+    display: block;
     margin: 10px;
 }
 

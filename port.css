@@ -155,10 +155,7 @@ section h2{
 
 .card-container {
     display: flex;
-    /* flex-direction: column;  */
-    /* Arrange children in a column */
-    align-items: stretch; 
-    /* Stretch items to full container width */
+    align-items: stretch; /* Stretch items to full container width */
     justify-content: center; /* Center items vertically */
     margin: 20px 0px;
  }
@@ -210,7 +207,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 35px;
+    gap: 15px;
     font-size: 18px;
     list-style: none;
     z-index: 1;

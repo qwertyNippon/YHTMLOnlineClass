@@ -14,8 +14,6 @@ window.addEventListener('scroll', () => {
     leaf.style.top = value * -1.5 + 'px';
     leaf.style.left = value * 1.5 + 'px';
     hill5.style.left = value * 1.5 + 'px';
-    pic1.style.top = value * 2.5 + 'px';
-    // pic1.style.left = value * -.5 + 'px';
     pic4.style.left = value * -1.5 + 'px';
     pic1.style.top = value * 1 + 'px';
 });

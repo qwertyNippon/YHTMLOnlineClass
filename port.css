@@ -285,19 +285,19 @@ nav .hamburger.active .bar {
     text-shadow: 2px 2px 4px rgba(0,0,0, .2);
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     #text{
         font-size: 2rem;
         top: 170px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     #pic1{
         width: 180%;
-        left: -175px;
-        top: -150px;
-        /* position: relative; */
+        left: -15px;
+        margin-bottom: 750px;
+        position: relative;
         /* display: flex; */
         /* justify-content: center; */
         /* align-items: center; */
@@ -329,6 +329,12 @@ nav .hamburger.active .bar {
     font-size: 1rem;
     color: #fff;
     font-weight: 300;
+}
+
+@media (max-width: 800px) {
+    .sec {
+        margin-top: -478px;
+    }
 }
 
 @media screen and (max-width: 992px) {

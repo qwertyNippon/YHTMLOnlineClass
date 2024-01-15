@@ -303,10 +303,10 @@ nav .hamburger.active .bar {
         top: 300px;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #text{
-        font-size: 2rem;
-        top: 170px;
+        font-size: 2.7rem;
+        top: 230px;
     }
 }
 @media (max-width: 800px) {
@@ -315,13 +315,33 @@ nav .hamburger.active .bar {
         top: 250px;
     }
 }
+@media (max-width: 700px) {
+    #text{
+        font-size: 2rem;
+        top: 190px;
+    }
+}
+@media (max-width: 600px) {
+    #text{
+        font-size: 1.8rem;
+        top: 150px;
+    }
+}
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1400px) {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 800px;
+        margin-bottom: 350px;
+        position: relative;
+    }
+}
+@media (max-width: 1300px) {
+    #pic1{
+        width: 180%;
+        left: -15px;
+        margin-bottom: 450px;
         position: relative;
     }
 }
@@ -329,7 +349,31 @@ nav .hamburger.active .bar {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 550px;
+        margin-bottom: 510px;
+        position: relative;
+    }
+}
+@media (max-width: 1100px) {
+    #pic1{
+        width: 180%;
+        left: -15px;
+        margin-bottom: 580px;
+        position: relative;
+    }
+}
+@media (max-width: 1000px) {
+    #pic1{
+        width: 180%;
+        left: -15px;
+        margin-bottom: 610px;
+        position: relative;
+    }
+}
+@media (max-width: 900px) {
+    #pic1{
+        width: 180%;
+        left: -15px;
+        margin-bottom: 610px;
         position: relative;
     }
 }
@@ -337,7 +381,15 @@ nav .hamburger.active .bar {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 520px;
+        margin-bottom: 720px;
+        position: relative;
+    }
+}
+@media (max-width: 600px) {
+    #pic1{
+        width: 180%;
+        left: -15px;
+        margin-bottom: 750px;
         position: relative;
     }
 }
@@ -412,7 +464,7 @@ nav .hamburger.active .bar {
 }
 @media (max-width: 600px) {
     .sec {
-        margin-top: -510px;
+        margin-top: -520px;
     }
 }
 

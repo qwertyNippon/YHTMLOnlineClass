@@ -84,3 +84,11 @@ window.addEventListener('scroll', function() {
       image1.classList.remove('relative');
     }
   });
+
+  function clearInput() {
+    var inputElement = document.getElementById('name');
+    var inputElement = document.getElementById('email');
+    var inputElement = document.getElementById('textArea');
+    
+    inputElement.value = '';
+}

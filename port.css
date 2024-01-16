@@ -220,6 +220,7 @@ nav ul {
     font-size: 18px;
     list-style: none;
     z-index: 1;
+    width: 100vw;
 }
 
 nav ul li a {

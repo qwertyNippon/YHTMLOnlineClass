@@ -121,7 +121,9 @@ section h2{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     box-shadow: 3px 3px var(--bg-color);
-    transition: transform 0.2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    cursor: pointer;
+    transform-style: preserve-3d;
 }
 
 .fixed-img{
@@ -130,7 +132,14 @@ section h2{
     margin-top: 10%;
 }
 
+.forHov{
+    transition: transform .2s ease-in-out;
+}
+
 .cardMain:hover{
+    transform: scale(1.01);
+}
+.forHov:hover{
     transform: scale(1.01);
 }
 
@@ -655,4 +664,48 @@ nav .hamburger.active .bar {
 #pic4{
     margin-top: 89px;
     width: 70%;
+}
+
+.cardMain .front {
+    height: 100%;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.front {
+    /* transform: rotateY(0deg); */
+    /* position: absolute; */
+    /* z-index: 1;
+    backface-visibility: hidden; */
+} 
+
+.cardMain .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.cardMain .back p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: none; */
+}
+
+.cardMain.active {
+    transform: perspective(300px) rotateY(180deg);
 }

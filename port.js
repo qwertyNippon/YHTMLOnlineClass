@@ -96,3 +96,12 @@ window.addEventListener('scroll', function() {
     inputElement2.value = '';
     inputElement3.value = '';
 }
+
+// *************for flipping the cards********
+
+    const card =
+        document.getElementById("card")
+
+    card.addEventListener('click', function() {
+        card.classList.toggle('active')
+    });

@@ -61,6 +61,17 @@ section h2{
     white-space: nowrap;
 }
 
+@media (max-width: 600px) {
+    Section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100vw; 
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .makeCenter{
     display: flex;
     flex-direction: column;

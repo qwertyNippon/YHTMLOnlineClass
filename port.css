@@ -47,9 +47,14 @@ header{
         width: 110vw;
     }
 }
+@media (max-width:800px) {
+    .picTop {
+        margin-top: 250px;
+    }
+}
 
 .picTop {
-    margin-top: 250px;
+    margin-top: 120px;
 }
 
 section span {

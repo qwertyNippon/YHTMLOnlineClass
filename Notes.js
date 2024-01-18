@@ -2,3 +2,4 @@
 // Add courses section
 
 // fix photos on mobile
+// facing slight issues

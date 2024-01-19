@@ -1,5 +1,5 @@
 // Next to do is resize photos for multiple screen size
 // Add courses section
 
-// fix photos on mobile
-// facing slight issues
+// going on trip for 12 hrs 
+// small fixs

@@ -360,9 +360,9 @@ nav .hamburger.active .bar {
         margin-right: 210px;
     }
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
     .logo{
-        margin-right: 150px;
+        margin-right: 0px;
     }
 }
 

@@ -105,3 +105,16 @@ window.addEventListener('scroll', function() {
     card.addEventListener('click', function() {
         card.classList.toggle('active')
     });
+
+    // ***************
+
+    function readMe(){
+        document.addEventListener("DOMContentLoaded", function () {
+            var readM = document.getElementById("readM");
+            var content = document.getElementById("content");
+            
+            readM.addEventListener("click", function () {
+                content.classList.toggle("hide");
+            });
+        });
+    }

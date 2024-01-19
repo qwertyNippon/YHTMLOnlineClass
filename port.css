@@ -61,6 +61,33 @@ section span {
     color: var(--text-color);
     font-weight: 800;
 }
+.readM {
+    color: var(--text-color);
+    font-weight: 800;
+
+}
+@media (max-width:800px) {
+    .readM {
+
+    }
+}
+
+.forMob {
+    color: var(--white);
+    cursor: pointer;
+    /* font-weight: 800; */
+}
+@media (max-width:800px) {
+    .forMob {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+.hide {
+display: none;
+  }
 
 section p {
     text-align: center;
@@ -220,6 +247,14 @@ section h2{
         justify-content: center;
         min-height: 350px;
         margin-bottom: 50px;
+        /* max-width: 90%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90vw;
+        margin-right: 10%;
+        
+        
     }
 }
 
@@ -323,7 +358,7 @@ nav .hamburger.active .bar {
 }
 @media (max-width: 600px) {
     .logo{
-        margin-right: 0px;
+        margin-right: 220px;
     }
 }
 

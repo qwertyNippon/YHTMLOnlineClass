@@ -731,6 +731,16 @@ nav .hamburger.active .bar {
 
 /* ************Pictures*************** */
 
+.imageCover{
+    overflow: hidden;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #pic1{
     height: 65%;
     /* transition: opacity 0.5s ease-in-out; */

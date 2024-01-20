@@ -108,7 +108,7 @@ window.addEventListener('scroll', function() {
 
     // ***************
 
-    function readMe(){
+    // function readMe(){
         document.addEventListener("DOMContentLoaded", function () {
             var readM = document.getElementById("readM");
             var content = document.getElementById("content");
@@ -117,4 +117,4 @@ window.addEventListener('scroll', function() {
                 content.classList.toggle("hide");
             });
         });
-    }
+    // }

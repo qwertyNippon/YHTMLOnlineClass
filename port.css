@@ -64,11 +64,11 @@ section span {
 .readM {
     color: var(--text-color);
     font-weight: 800;
-
+    cursor: pointer;
 }
-@media (max-width:800px) {
+@media (max-width:469px) {
     .readM {
-
+        display: none;
     }
 }
 
@@ -192,6 +192,11 @@ section h2{
     position: absolute;
     z-index: 1;
     margin-top: 10%;
+    opacity: .6;
+}
+
+.card-type {
+    margin-top: 45px;
 }
 
 .forHov{
@@ -530,6 +535,7 @@ nav .hamburger.active .bar {
 }
 
 .sec p{
+    margin-bottom: 0px;
     font-size: 1rem;
     color: #fff;
     font-weight: 300;

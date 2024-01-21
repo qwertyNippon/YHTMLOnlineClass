@@ -631,6 +631,20 @@ nav .hamburger.active .bar {
     }
 }
 
+/* styles for the video container */
+
+section video {
+    max-height: 60vh;
+    max-width: 80vw;
+    margin-bottom: 20px;
+}
+
+#myVideo {
+    display: flex;
+    max-width: 50vw;
+    border-radius: 25px;
+}
+
 /* ***************Contact Form ******************* */
 
 .contact-container{

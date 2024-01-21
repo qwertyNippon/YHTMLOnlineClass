@@ -63,8 +63,11 @@ section span {
 }
 .readM {
     color: var(--text-color);
+    background-color: var(--bg-color);
     font-weight: 800;
     cursor: pointer;
+    height: 0px;
+    width: 0px;
 }
 @media (max-width:469px) {
     .readM {

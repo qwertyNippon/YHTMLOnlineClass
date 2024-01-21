@@ -776,12 +776,12 @@ nav .hamburger.active .bar {
     backface-visibility: hidden;
 }
 
-.front {
+/* .front { */
     /* transform: rotateY(0deg); */
     /* position: absolute; */
     /* z-index: 1;
     backface-visibility: hidden; */
-} 
+/* }  */
 
 .cardMain .back {
     width: 100%;

@@ -471,7 +471,7 @@ nav .hamburger.active .bar {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 350px;
+        margin-bottom: 250px;
         position: relative;
     }
 }
@@ -479,7 +479,7 @@ nav .hamburger.active .bar {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 450px;
+        margin-bottom: 300px;
         position: relative;
     }
 }
@@ -487,7 +487,7 @@ nav .hamburger.active .bar {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 510px;
+        margin-bottom: 400px;
         position: relative;
     }
 }
@@ -495,7 +495,7 @@ nav .hamburger.active .bar {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 580px;
+        margin-bottom: 400px;
         position: relative;
     }
 }
@@ -503,7 +503,7 @@ nav .hamburger.active .bar {
     #pic1{
         width: 180%;
         left: -15px;
-        margin-bottom: 610px;
+        margin-bottom: 400px;
         position: relative;
     }
 }
@@ -758,7 +758,7 @@ nav .hamburger.active .bar {
 }
 
 #pic1{
-    height: 65%;
+    height: 75%;
     /* transition: opacity 0.5s ease-in-out; */
 }
 

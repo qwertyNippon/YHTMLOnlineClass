@@ -9,9 +9,9 @@
 }
 
 :root {
-    --text-color: #00fbff;
+    --text-color: #dd8dbd;
     /* --text-color: pink; */
-    --bg-color: #323234;
+    --bg-color: #f5f5fd;
     /* --bg-color: #b4b4d4; */
     --white: #fff;
     --black: #000;
@@ -138,6 +138,14 @@ section h2{
     .proPic{
         height: 40vh;
     }
+}
+
+#specialText {
+    color: var(--mob-color);
+}
+
+.textW {
+    color: var(--white); 
 }
 
 .contact button{

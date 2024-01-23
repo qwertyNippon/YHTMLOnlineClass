@@ -1,3 +1,4 @@
+
 // parallax effect controls
 
 let text = document.getElementById('text');
@@ -118,3 +119,5 @@ window.addEventListener('scroll', function() {
             });
         });
     // }
+
+

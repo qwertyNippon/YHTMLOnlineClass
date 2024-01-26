@@ -121,3 +121,8 @@ window.addEventListener('scroll', function() {
     // }
 
 
+const cardFlip = document.querySelector('.card__inner');
+
+cardFlip.addEventListener('click', function () {
+    cardFlip.classList.toggle('is-flipped');
+})

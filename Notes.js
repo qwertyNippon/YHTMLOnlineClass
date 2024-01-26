@@ -1,2 +1,2 @@
 // Next to do is resize photos for multiple screen size
-// tests
+// made progress, I need to fine tune it

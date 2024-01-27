@@ -120,9 +120,12 @@ window.addEventListener('scroll', function() {
         });
     // }
 
+// Assuming you have multiple elements with the class "card__inner"
+const cardFlips = document.querySelectorAll(".card__inner");
 
-const cardFlip = document.querySelector('.card__inner');
-
-cardFlip.addEventListener('click', function () {
-    cardFlip.classList.toggle('is-flipped');
-})
+// Adding the click event listener for each element
+for (let i = 0; i < cardFlips.length; i++) {
+    cardFlips[i].addEventListener("click", function (e) {
+        cardFlips[i].classList.toggle('is-flipped');
+    });
+}

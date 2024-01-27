@@ -100,12 +100,12 @@ window.addEventListener('scroll', function() {
 
 // *************for flipping the cards********
 
-    const card =
-        document.getElementById("card")
+    // const card =
+    //     document.getElementById("card")
 
-    card.addEventListener('click', function() {
-        card.classList.toggle('active')
-    });
+    // card.addEventListener('click', function() {
+    //     card.classList.toggle('active')
+    // });
 
     // ***************
 

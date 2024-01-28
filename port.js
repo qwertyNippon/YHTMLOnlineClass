@@ -6,7 +6,6 @@ let leaf = document.getElementById('leaf');
 let pic1 = document.getElementById('pic1');
 let pic4 = document.getElementById('pic4');
 let hill5 = document.getElementById('hill5');
-// let hill1 = document.getElementById('hill1');
 
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
@@ -98,28 +97,17 @@ window.addEventListener('scroll', function() {
     inputElement3.value = '';
 }
 
-// *************for flipping the cards********
 
-    // const card =
-    //     document.getElementById("card")
-
-    // card.addEventListener('click', function() {
-    //     card.classList.toggle('active')
-    // });
-
-    // ***************
-
-    // function readMe(){
-        document.addEventListener("DOMContentLoaded", function () {
-            var readM = document.getElementById("readM");
-            var content = document.getElementById("content");
-            
-            readM.addEventListener("click", function () {
-                content.classList.toggle("hide");
-            });
+    document.addEventListener("DOMContentLoaded", function () {
+        var readM = document.getElementById("readM");
+        var content = document.getElementById("content");
+        
+        readM.addEventListener("click", function () {
+            content.classList.toggle("hide");
         });
-    // }
+    });
 
+// For flipping cards
 // Assuming you have multiple elements with the class "card__inner"
 const cardFlips = document.querySelectorAll(".card__inner");
 
